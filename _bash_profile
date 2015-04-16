@@ -1,0 +1,18 @@
+export PATH=/usr/local/bin:$PATH
+eval "$(rbenv init -)"
+
+# mysql
+export PATH=$PATH:$HOME/bin:/usr/local/mysql/bin
+
+# git
+source ~/.git-completion.bash
+
+# terminal
+COLOR_BOLD="\[\e[1m\]"
+COLOR_DEFAULT="\[\e[0m\]"
+PS1="$COLOR_BOLD\u@\h \W \$ $COLOR_DEFAULT"
+export CLICOLOR=1
+
+if [ -f ~/.bashrc ] ; then
+  . ~/.bashrc
+fi

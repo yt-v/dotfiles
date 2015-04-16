@@ -1,6 +1,6 @@
 if has('gui_macvim')
   set showtabline=2    " タブを常に表示
-  set transparency=5   " 透明度
+  set transparency=0   " 透明度
   set imdisable        " IME OFF
   set guioptions-=T    " ツールバー非表示
   set antialias        " アンチエイリアス
@@ -16,8 +16,8 @@ if has('gui_macvim')
   set nowrapscan       " 検索をファイルの先頭へループしない
 
   " フォント設定
-  set guifontwide=Osaka:h12
-  set guifont=Osaka-Mono:h14
+  set guifontwide=Ricty:h12
+  set guifont=Ricty:h14
   hi TabLine     term=reverse cterm=reverse ctermfg=white ctermbg=black
   hi TabLineSel  term=bold cterm=bold,underline ctermfg=5
   hi TabLineFill term=reverse cterm=reverse ctermfg=white ctermbg=black

@@ -1,0 +1,34 @@
+# ~/.bashrc
+# Add the following.
+if [ -d $HOME/.nvm ]; then
+  source $HOME/.nvm/nvm.sh
+fi
+
+# alias git
+alias branch="git branch"
+alias status="git status"
+alias add="git add -v"
+alias checkout="git checkout"
+alias diff="git diff --cached"
+alias log="git log"
+alias push="git push"
+alias pull="git pull"
+alias gg="git grep"
+alias commit="git commit -m"
+alias amend="git commit --amend"
+alias stash="git stash"
+alias show="git show"
+alias migrate="bundle exec rake db:migrate"
+alias seed="bundle exec rake db:seed"
+
+# aliaus rails
+alias railss="bundle exec rails s"
+alias railsc="bundle exec rails c"
+
+# alius shortcut-zenki
+alias zenki="cd ~/workspace/zenki"
+alias css="open ~/workspace/zenki/app/assets/stylesheets/"
+alias image="open ~/workspace/zenki/resources/images/app/event"
+
+alias mem="memcached -u memcached -d -m 1024 -l 127.0.0.1"
+alias redis="redis-server /usr/local/etc/redis.conf"
