@@ -5,6 +5,9 @@
 " ;でコマンド入力(;と:を入れ替え)
 noremap ; :
 
+" Escの2回押しでハイライト消去
+nmap <ESC><ESC> ;nohlsearch<CR><ESC>
+
 " 誤操作すると困るキーを無効化する
 nnoremap ZZ <Nop>
 nnoremap ZQ <Nop>

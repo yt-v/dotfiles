@@ -722,7 +722,7 @@
 	<key>NSColorPickerSlidersDefaults</key>
 	<string>0</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/dotfiles/forMac</string>
+	<string>~/dotfiles/forMac/iTerm</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -734,9 +734,9 @@
 	<key>NSWindow Frame NSColorPanel</key>
 	<string>2921 413 214 309 1440 -42 1920 1080 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>344 296 924 485 0 0 1440 878 </string>
+	<string>2436 374 924 485 1440 -42 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2228 546 585 451 1440 -42 1920 1058 </string>
+	<string>305 419 585 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>162 91 585 451 0 0 1440 878 </string>
 	<key>NeverWarnAboutShortLivedSessions_E7C13963-37BF-4D3C-B788-13ABE9BB132D</key>
@@ -1306,7 +1306,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>10000</integer>
 			<key>Scrollback With Status Bar</key>
 			<false/>
 			<key>Scrollback in Alternate Screen</key>
@@ -3692,7 +3692,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/tanaka_yoshiya/dotfiles/forMac</string>
+	<string>/Users/tanaka_yoshiya/dotfiles/forMac/iTerm</string>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
