@@ -4,6 +4,7 @@ if has('gui_macvim')
 	set imdisable        " IME OFF
 	set guioptions-=T    " ツールバー非表示
 	set antialias        " アンチエイリアス
+	set expandtab	     " タブをスペース化
 	set tabstop=2        " タブサイズ
 	set number           " 行番号表示
 	set nobackup         " バックアップなし
@@ -21,4 +22,11 @@ if has('gui_macvim')
 	hi TabLine     term=reverse cterm=reverse ctermfg=white ctermbg=black
 	hi TabLineSel  term=bold cterm=bold,underline ctermfg=5
 	hi TabLineFill term=reverse cterm=reverse ctermfg=white ctermbg=black
+
+	" 行頭、行末でのカーソル移動
+	set whichwrap=b,s,<,>,[,]
+
+	" 特殊文字の可視化
+	set list
+	set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:< 
 endif

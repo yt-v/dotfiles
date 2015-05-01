@@ -84,7 +84,6 @@ bindkey "^I" menu-complete   # 展開する前に補完候補を出させる(Ctr
 # 例 : mkdir {1-3} で フォルダ1, 2, 3を作れる
 setopt brace_ccl
 
-
 # 短縮コマンド
 if [ -f /Applications/MacVim.app/Contents/MacOS/Vim ]; then
   alias v='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
