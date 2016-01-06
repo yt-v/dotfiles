@@ -1,4 +1,5 @@
 
+ln -s ~/dotfiles/_gitconfig ~/.gitconfig
 ln -s ~/dotfiles/_zshrc ~/.zshrc
 ln -s ~/dotfiles/_zprofile ~/.zprofile
 ln -s ~/dotfiles/_vimrc ~/.vimrc
