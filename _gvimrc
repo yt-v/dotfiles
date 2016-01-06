@@ -4,13 +4,15 @@ if has('gui_macvim')
 	set imdisable        " IME OFF
 	set guioptions-=T    " ツールバー非表示
 	set antialias        " アンチエイリアス
-	set expandtab	     " タブをスペース化
-	set tabstop=2        " タブサイズ
+	set expandtab        " タブをスペース化
+	set tabstop=4        " タブサイズ
 	set number           " 行番号表示
 	set nobackup         " バックアップなし
 	set visualbell t_vb= " ビープ音なし
+	set laststatus=2     " ステータスラインを常に表示
 
 	colorscheme desert   " カラースキーマ
+	syntax on            " シンタックスカラーリングを設定する
 	set columns=180      " 横幅
 	set lines=160        " 行数
 
