@@ -6,4 +6,4 @@
 " NERDTree.vim
 "------------------------------------
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
-
+autocmd vimenter * if !argc() | NERDTree | endif
